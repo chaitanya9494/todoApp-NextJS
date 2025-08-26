@@ -1,2 +1,0 @@
-# todoApp-NextJS
-todoApp-NextJS
