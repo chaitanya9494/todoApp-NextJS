@@ -25,7 +25,7 @@ export default function TaskCard({ task, onToggleComplete, onDelete }: TaskCardP
             />
           </button>
           
-          <Link 
+            <Link 
             href={`/tasks/${task.id}/edit`}
             className="flex-1 group"
           >
