@@ -25,7 +25,7 @@ export default function HomePage() {
       setTasks(fetchedTasks)
     } catch (err: any) {
       if (err.code === 'ECONNREFUSED' || err.message?.includes('Network Error')) {
-        setError('Cannot connect to the server. Please ensure the backend is running on port 5000.')
+        setError('Cannot connect to the server. Please ensure the backend is running.')
       } else {
         setError('Failed to load tasks. Please check your connection and try again.')
       }

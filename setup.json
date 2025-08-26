@@ -1,7 +1,0 @@
-{
-  "scripts": {
-    "setup": "npm install && echo 'Setup complete! Run npm run dev to start the development server.'",
-    "dev:frontend": "next dev",
-    "backend:check": "curl -f http://localhost:5000/health || echo 'Backend not running. Please start the Express.js server on port 5000.'"
-  }
-}

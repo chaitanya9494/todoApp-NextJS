@@ -37,7 +37,7 @@ export default function EditTaskPage() {
       if (err.response?.status === 404) {
         setError('Task not found. It may have been deleted.')
       } else if (err.code === 'ECONNREFUSED' || err.message?.includes('Network Error')) {
-        setError('Cannot connect to the server. Please ensure the backend is running on port 5000.')
+        setError('Cannot connect to the server. Please ensure the backend is running.')
       } else {
         setError('Failed to load task. Please check your connection and try again.')
       }
